@@ -1,7 +1,7 @@
 # Site settings
 description: A blog about lorem ipsum dolor sit amet
-baseurl: "https://lky88.github.io/"
-url: "https://lky88.github.io/"
+baseurl: ""
+url: ""
 
 # User settings
 username: Lorem Ipsum
