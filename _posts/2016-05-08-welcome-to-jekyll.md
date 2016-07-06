@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Welcome to Jekyll"
+title: "Test"
 date: 2016-05-08 20:34:26
 image: '/assets/img/'
 description: 'Put your description here.'
 main-class: 'jekyll'
 color: '#B31917'
 tags:
-- jekyll
+- TEST tag
 categories:
 twitter_text: 'Put your twitter description here.'
 introduction: 'Put your description here.'
