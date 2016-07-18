@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "linux"
-date: 2016-07-06 06:00:00
+date: 2016-07-17 06:00:00
 image: '/assets/img/'
 description: 'linux 명령어'
 main-class: 'linux'
