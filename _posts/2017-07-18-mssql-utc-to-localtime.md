@@ -5,7 +5,7 @@ date: 2016-07-18 06:00:00
 image: '/assets/img/'
 description: 'mssql 명령어'
 main-class: 'mssql'
-color: '#B31917'
+color: '#2c50f5'
 tags:
 - 
 categories:
