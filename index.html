@@ -3,6 +3,8 @@ layout: default
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+<meta name="google-site-verification" content="F0KyDwhRcT_MXEZT40W-tM835siIsd9_llxMjtVMWwA" />
+
     <div id="grid" class="row flex-grid">
 
     {% for post in paginator.posts %}
@@ -48,7 +50,7 @@ layout: default
     {% if page == paginator.page %}  
       <em class="cusInnerPage">{{ page }}</em>  
     {% elsif page == 1 %}  
-      <a class="cusInnerPage" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>  
+      <a class="cusInnerPage" href="/">{{ page }}</a>  
     {% else %}  
       <a class="cusInnerPage" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>  
     {% endif %}  
