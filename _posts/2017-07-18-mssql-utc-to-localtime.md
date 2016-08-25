@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "mssql"
+title: "UTC시간을 로컬시간으로 변경하는 함수"
 date: 2016-07-18 06:00:00
 image: '/assets/img/'
 description: 'mssql 명령어'
@@ -9,7 +9,7 @@ color: '#2c50f5'
 tags:
 - 
 categories:
-introduction: "UTC시간을 로컬시간으로 변경하는 함수 <br/><br/>마이크로소프트 SQL 서버(영어: Microsoft SQL Server)는 마이크로소프트가 1989년 사이베이스(Sybase)를 기반으로 개발한 관계형 데이터베이스이다."
+introduction: "마이크로소프트 SQL 서버(영어: Microsoft SQL Server)는 마이크로소프트가 1989년 사이베이스(Sybase)를 기반으로 개발한 관계형 데이터베이스이다."
 ---
 
 UTC시간을 로컬 시간으로 변경해주는 함수
@@ -36,5 +36,15 @@ end
 GO
 {% endhighlight %}
 
+
+ 함수 호출 방법:
+
+> 파라미터 타입 -> int(UTC 시간) <br/>
+
+
+
+{% highlight sql %}
+	select dbo.utctolocaltime(1457241219) as localtime;
+{% endhighlight %}
 
 

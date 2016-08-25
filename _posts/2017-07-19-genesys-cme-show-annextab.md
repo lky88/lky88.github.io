@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "genesys"
+title: "Configuration manager에서 Annex tab 활성화 방법"
 date: 2016-07-18 07:00:00
 image: '/assets/img/'
 description: 'genesys'
@@ -9,7 +9,7 @@ color: '#B31917'
 tags:
 - 
 categories:
-introduction: "Configuration manager에서 Annex tab 활성화 방법 <br/><br/> Genesys(제네시스) 는 중견기업과 대기업에 고객 경험과 컨택 센터와 관련된 기술를 판매하는 회사이며 클라우드 기반 및 on-premises소프트웨어를 모두 제공한다"
+introduction: "Genesys(제네시스) 는 중견기업과 대기업에 고객 경험과 컨택 센터와 관련된 기술를 판매하는 회사이며 클라우드 기반 및 on-premises소프트웨어를 모두 제공한다"
 ---
 
 

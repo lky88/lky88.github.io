@@ -2,9 +2,11 @@
 description: A blog about lorem ipsum dolor sit amet
 baseurl: ""
 url: ""
+paginate: 2
+paginate_path: "/blog/page:num/"
 
 # User settings
-username: Lorem Ipsum
+username: lky88
 user_description: Anon Developer at Lorem Ipsum Dolor
 user_title: Anon Developer
 email: anon@anon.com
@@ -40,3 +42,10 @@ links:
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+
+# Gems
+gems: [jekyll-paginate]
+
+
+
+
