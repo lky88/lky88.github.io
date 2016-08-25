@@ -2602,7 +2602,7 @@ footer p,footer a {
 .pagination{
 	
 	text-align : center;
-	color : #000000;
+	
 }
 
 .cusInnerPage{
@@ -2611,11 +2611,12 @@ footer p,footer a {
 	padding : 4px 12px;
 	margin : -2px;
 	text-decoration : none;
-	color : #0088cc;
+	font-style : normal;
 }
 
 a.cusInnerPage:hover{
-	
-	background : #f5f5f5
+	background : #f5f5f5;
 }
-
+a.cusInnerPage:visited{
+	color : #0088cc;
+}
