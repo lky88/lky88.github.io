@@ -1,7 +1,7 @@
 # Site settings
 description: A blog about lorem ipsum dolor sit amet
 baseurl: ""
-url: "lky88.github.io"
+url: "https://lky88.github.io"
 paginate: 2
 paginate_path: "/blog/page:num/"
 
