@@ -30,29 +30,69 @@ gem install jekyll-pagination
 
 아래와 같이 수정할 경우 paginate의 값만큼 포스트가 표시됩니다.
 
-as-is
-{% highlight jekyll %}
+as-is : 
 
-작업중..
- 
-{% endhighlight %}
+> site.posts을 변경 <br/>
 
+{% highlight liquid %}
 
-to-be
-
-{% highlight jekyll %}
-작업중..
+{%raw%}
+{% for post in site.posts %}
+{% endfor %}
+{%endraw%}
 
 {% endhighlight %}
 
-add
 
-{% highlight jekyll %}
+to-be : 
 
-	작업중..
- 
+> paginator.posts으로 변경
+
+{% highlight liquid %}
+
+{%raw%}
+{% for post in paginator.posts %}
+{% endfor %}
+{%endraw%}
+
 {% endhighlight %}
 
+add :
+
+> endfor 하단에 추가
+
+{% highlight liquid %}
+{%raw%}
+
+{% if paginator.total_pages > 1 %}  
+  	<div class="pagination">
+  {% if paginator.previous_page %}  
+    <a class="cusInnerPage" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>  
+  {% else %}  
+    <span class="cusInnerPage">&laquo; Prev</span>  
+  {% endif %}  
+  
+  {% for page in (1..paginator.total_pages) %}  
+    {% if page == paginator.page %}  
+      <em class="cusInnerPage">{{ page }}</em>  
+    {% elsif page == 1 %}  
+      <a class="cusInnerPage" href="/">{{ page }}</a>  
+    {% else %}  
+      <a class="cusInnerPage" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>  
+    {% endif %}  
+  {% endfor %}  
+  
+  {% if paginator.next_page %}  
+    <a class="cusInnerPage" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>  
+  {% else %}  
+    <span class="cusInnerPage" >Next &raquo;</span>  
+  {% endif %}  
+</div> 
+{% endif %}
+
+{%endraw%}
+
+{% endhighlight %}
 
 
 # 4. CSS 추가
