@@ -2618,3 +2618,98 @@ a.cusInnerPage:visited{
 .post-jekyll footer {
 	background-color: #e96563
 }
+.post-etc .title-category {
+	color: #d2cbcb
+}
+
+.post-etc .post-content h1,.post-etc .post-content h2,.post-etc .post-content h3,.post-etc .post-content h4
+	{
+	color: #d2cbcb
+}
+
+.post-etc .post-content a {
+	color: #d2cbcb;
+	border-bottom: 2px dashed #d2cbcb;
+}
+
+.post-etc .post-content a:hover {
+	background-color: #d2cbcb;
+	color: #fff
+}
+
+.post-etc .post-content strong {
+	color: #d2cbcb
+}
+
+.post-etc .post-content p code,.post-etc .post-content li code {
+	color: #d2cbcb
+}
+
+.post-etc .post-content blockquote {
+	border-left: .313rem solid #d2cbcb
+}
+
+.post-etc .header-post,.post-etc .header-site {
+	background-color: #d2cbcb;
+}
+
+.post-etc .header-post h1,.post-etc .header-site h1 {
+	text-shadow: 3px 3px #8f1412
+}
+
+.post-etc .bar-header .logo a {
+	color: #d2cbcb
+}
+
+.post-etc .author .email {
+	color: #d2cbcb
+}
+
+.post-etc .share a:hover svg {
+	fill: #d2cbcb
+}
+
+@media only screen and (max-width:37.5rem) {
+	.post-etc body.search-overlay:after {
+		background-color: #d2cbcb
+	}
+}
+
+.post-etc .icon-menu {
+	fill: #d2cbcb
+}
+
+.post-etc .box-body h2 {
+	color: #d2cbcb
+}
+
+.post-etc .box-body .tags a {
+	color: #d2cbcb;
+	border: 1px solid #d2cbcb
+}
+
+.post-etc aside {
+	background-color: #d2cbcb;
+}
+
+.post-etc aside nav li a:hover {
+	color: #d2cbcb
+}
+
+.post-etc .ribbon span {
+	background-color: #d2cbcb;
+}
+
+.post-etc .ribbon span:before {
+	border-left: 3px solid #7d1210;
+	border-top: 3px solid #7d1210
+}
+
+.post-etc .ribbon span:after {
+	border-right: 3px solid #7d1210;
+	border-top: 3px solid #7d1210
+}
+
+.post-etc footer {
+	background-color: #d2cbcb
+}

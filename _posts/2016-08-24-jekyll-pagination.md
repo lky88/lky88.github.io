@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "jekyll pagination 방법"
-date: 2016-07-19 07:00:00
+date: 2016-08-24 07:00:00
 image: '/assets/img/'
 description: 'jekyll'
 main-class: 'jekyll'
