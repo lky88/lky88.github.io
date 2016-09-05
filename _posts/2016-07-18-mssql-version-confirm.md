@@ -3,7 +3,7 @@ layout: post
 title: "MSSQL 버전 확인 방법 "
 date: 2016-07-18 07:00:00
 image: '/assets/img/'
-description: 'mssql 명령어'
+description: 'mssql sql'
 main-class: 'mssql'
 color: '#B31917'
 tags:

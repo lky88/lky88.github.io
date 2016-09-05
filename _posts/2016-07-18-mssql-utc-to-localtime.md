@@ -3,7 +3,7 @@ layout: post
 title: "UTC시간을 로컬시간으로 변경하는 함수"
 date: 2016-07-18 06:00:00
 image: '/assets/img/'
-description: 'mssql 명령어'
+description: 'mssql sql'
 main-class: 'mssql'
 color: '#2c50f5'
 tags:

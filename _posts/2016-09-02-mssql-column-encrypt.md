@@ -3,7 +3,7 @@ layout: post
 title: "Mssql 패스워드 암호화 PwdEncrypt"
 date: 2016-09-02 00:00:00
 image: '/assets/img/'
-description: 'mssql'
+description: 'mssql sql'
 main-class: 'mssql'
 color: '#B31917'
 tags:
