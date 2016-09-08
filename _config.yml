@@ -2,7 +2,7 @@
 description: A blog about lorem ipsum dolor sit amet
 baseurl: ""
 url: "https://lky88.github.io"
-paginate: 2
+paginate: 6
 paginate_path: "/blog/page:num/"
 
 # User settings
