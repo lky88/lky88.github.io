@@ -46,7 +46,7 @@ layout: default
     <span class="cusInnerPage">&laquo; Prev</span>  
   {% endif %}  
   
-  {% for page in (1..paginator.total_pages) %}  
+  {% for page in (8..paginator.total_pages) %}  
     {% if page == paginator.page %}  
       <em class="cusInnerPage">{{ page }}</em>  
     {% elsif page == 1 %}  
