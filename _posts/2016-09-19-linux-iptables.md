@@ -15,7 +15,7 @@ introduction: "리눅스(Linux)는 컴퓨터 운영 체제의 하나이며, 그 
 
 #iptable 설치 방법
  
-{% highlight ruby %}
+{% highlight linux-config %}
 
 yum -y install iptables
 yum -y install iptables-service
@@ -24,7 +24,7 @@ yum -y install iptables-service
 
 #iptables service 설치 확인 방법
 
-{% highlight ruby %}
+{% highlight linux-config %}
 
 rpm -qa | grep iptables
 
@@ -36,7 +36,7 @@ rpm -qa | grep iptables
 
 #/etc/sysconfig 이동
 
-{% highlight ruby %}
+{% highlight linux-config %}
 
 cd /etc/sysconfig
 
@@ -49,7 +49,7 @@ cd /etc/sysconfig
 
 #iptables 열기
 
-{% highlight ruby %}
+{% highlight linux-config %}
 
 vi iptables
 
@@ -60,7 +60,7 @@ vi iptables
 ![Imagem em um ipad](/assets/img/linux/iptables3.jpg)
 
 
-{% highlight ruby %}
+{% highlight linux-config %}
 
 -A INPUT -p tcp --dport PORT -j ACCEPT
 
