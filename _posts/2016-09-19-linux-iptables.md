@@ -60,10 +60,26 @@ vi iptables
 ![Imagem em um ipad](/assets/img/linux/iptables3.jpg)
 
 
+#수정 방법<br/>
+
+*filter<br/>
+:INPUT ACCEPT [0:0]<br/>
+:FORWARD ACCEPT [0:0]<br/>
+:OUTPUT ACCEPT [0:0]<br/>
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT<br/>
+-A INPUT -p icmp -j ACCEPT<br/>
+-A INPUT -i lo -j ACCEPT<br/>
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 22 -j ACCEPT<br/>
+-A INPUT -p tcp -m state --state NEW -m tcp --dport 1521 -j ACCEPT<br/>
+
+> 추가
+
+-A INPUT -j REJECT --reject-with icmp-host-prohibited<br/>
+-A FORWARD -j REJECT --reject-with icmp-host-prohibited<br/>
+COMMIT<br/>
+
 {% highlight linux-config %}
-
 -A INPUT -p tcp --dport PORT -j ACCEPT
-
 {% endhighlight%}
 
 > EX) -A INPUT -p tcp --dport 1521 -j ACCEPT
