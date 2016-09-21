@@ -86,4 +86,11 @@ COMMIT<br/>
 
 
 
+iptables 명령어
+설정 후 재시작 필요!
 
+{% highlight linux-config %}
+iptables service start
+iptables service stop
+iptables service restart
+{% endhighlight%}
